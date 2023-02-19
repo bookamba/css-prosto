@@ -31,6 +31,7 @@ header {
   align-content: center;
 
   position: relative;
+  height: 100vh;
   height: 100dvh;
 }
 
