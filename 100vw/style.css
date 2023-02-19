@@ -26,12 +26,13 @@ header {
   background-size: cover;
   background-position: center;
 
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   align-content: center;
 
   position: relative;
-  height: 100svh;
+  height: 100vh;
+  height: 100dvh;
 }
 
 header .bottom {
