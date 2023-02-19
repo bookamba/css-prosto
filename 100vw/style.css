@@ -10,11 +10,10 @@ body {
 
 header h1,
 header p {
-  display: block;
   flex-basis: 100%;
   text-align: center;
   margin: 0;
-  text-shadow: 0 0 14px #000;
+  text-shadow: 0 0 14px #000, 0 0 14px #000;
 }
 
 article {
@@ -25,17 +24,17 @@ article {
 header {
   background-image: url(top-header.jpeg);
   background-size: cover;
+  background-position: center;
 
   display: flex;
   flex-wrap: wrap;
   align-content: center;
 
   position: relative;
-  height: 100vh;
+  height: 100dvh;
 }
 
 header .bottom {
-  cursor: pointer;
   text-align: center;
   inset: auto 0 0;
   position: absolute;
