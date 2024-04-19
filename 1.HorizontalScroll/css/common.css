@@ -1,0 +1,11 @@
+.container {
+  border: 5px solid red;
+
+  height: calc(100svh - 10px);
+}
+
+.inner {
+  max-height: 100%;
+  overflow-x: auto;
+  columns: 20rem;
+}
